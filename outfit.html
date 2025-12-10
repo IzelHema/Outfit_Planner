@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outfits</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="profile">
+          <img
+            src="https://i.pinimg.com/474x/db/3a/62/db3a623acc8396fb285ec899ad01cd10.jpg"
+            alt="Profile Picture"
+          />
+          <div class="user-info">
+            <h2>HelloWorld</h2>
+          </div>
+        </div>
+      </header>
+
+      <nav class="tabs">
+        <button onclick="window.location.href='index.html'">Closet</button>
+        <button class="active">Outfits</button>
+        <button onclick="window.location.href='favourites.html'">Favourites</button>
+      </nav>
+
+      <!-- Outfits Section -->
+      <div class="clothes-section">
+        <div class="clothes-category">
+          <div class="clothes-grid">
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="all-outfits.html">
+                  <img
+                    src="https://i.pinimg.com/736x/87/51/92/875192a684a77e919a7061d23d6fcc8f.jpg"
+                  />
+                </a>
+              </div>
+              <p>All Outfits</p>
+            </div>
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="summer.html">
+                  <img
+                    src="https://i.pinimg.com/474x/9a/04/85/9a04858223c21bdb8f809ab03c3326c2.jpg"
+                  />
+                </a>
+              </div>
+              <p>Summer</p>
+            </div>
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="winter.html">
+                  <img
+                    src="https://i.pinimg.com/474x/c1/da/d4/c1dad4862597896f5b6195071356915d.jpg"
+                  />
+                </a>
+              </div>
+              <p>Winter</p>
+            </div>
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="fall.html">
+                  <img
+                    src="https://i.pinimg.com/474x/da/f6/12/daf61230bc8e8089ef185d757b7ac02e.jpg"
+                  />
+                </a>
+              </div>
+              <p>Fall</p>
+            </div>
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="formal.html">
+                  <img
+                    src="https://i.pinimg.com/736x/f8/38/f4/f838f4b9e7fb72d5940d4556e9708964.jpg"
+                  />
+                </a>
+              </div>
+              <p>Formal</p>
+            </div>
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="casual.html">
+                  <img
+                    src="https://i.pinimg.com/736x/c7/20/48/c7204874cca9a33dbe4c440b51354522.jpg"
+                  />
+                </a>
+              </div>
+              <p>Casual</p>
+            </div>
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="chic.html">
+                  <img
+                    src="https://i.pinimg.com/736x/b4/c9/d4/b4c9d410575f9a325d977493561931c1.jpg"
+                  />
+                </a>
+              </div>
+              <p>Chic</p>
+            </div>
+            <div class="clothes-box">
+              <div class="clothes-item">
+                <a href="ethnic.html">
+                  <img
+                    src="https://i.pinimg.com/736x/af/cb/03/afcb03c6fb796ab4efb1cf2ca0e920ed.jpg"
+                  />
+                </a>
+              </div>
+              <p>Ethnic</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <button class="nav-btn"><i class="fa-solid fa-shirt"></i></button> <!-- Dress Icon -->
+        <!-- Home Page HTML -->
+        <button class="nav-btn" onclick="window.location.href='ai-recommendations.html'">
+          <i class="fa-solid fa-brain"></i>
+      </button>
+
+        <button id="openCameraButton" class="plus-button">+</button>
+
+        <script>
+          // Add an event listener to open the camera page
+          document.getElementById("openCameraButton").addEventListener("click", function () {
+          window.location.href = "camera.html"; // Navigate to the camera view
+          });
+        </script>
+
+        <button class="nav-btn" onclick="window.location.href='laundry.html'">
+        <i class="fa-solid fa-basket-shopping"></i>
+    </button> <!-- Laundry Basket Icon -->
+
+    <button class="nav-btn" onclick="window.location.href='settings.html'">
+        <i class="fa-solid fa-cog"></i>
+    </button>
+      </footer>
+
+  </body>
+</html>
